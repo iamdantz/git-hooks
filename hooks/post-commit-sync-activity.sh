@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -euo pipefail
 
-SHADOW_REPO_PATH="${XDG_CONFIG_HOME:-$HOME/.config}/git/dev/shadow-repo"
+SHADOW_REPO_PATH=$(git config hooks.syncactivity.path || git config --global hooks.syncactivity.path || echo "${XDG_CONFIG_HOME:-$HOME/.config}/git/dev/shadow-repo")
 ACTIVITY_FILE="activity.log"
 
 if git remote -v | grep -q "github.com"; then
@@ -10,7 +10,7 @@ if git remote -v | grep -q "github.com"; then
 fi
 
 if [ ! -d "$SHADOW_REPO_PATH" ]; then
-    echo "Error: Shadow repo path not found." >&2
+    echo "Error: Shadow repo path not found at $SHADOW_REPO_PATH." >&2
     exit 1
 fi
 
