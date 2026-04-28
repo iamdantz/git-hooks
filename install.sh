@@ -82,8 +82,10 @@ verify_and_install() {
         exit 1
     fi
 
-    mkdir -p "$(dirname "$dest")"
-    mv "$tmp_file" "$dest"
+    if [ "$tmp_file" != "$dest" ]; then
+        mkdir -p "$(dirname "$dest")"
+        mv "$tmp_file" "$dest"
+    fi
     chmod +x "$dest"
     rm -f "$tmp_sums"
 }
