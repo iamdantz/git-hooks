@@ -1,4 +1,4 @@
-287cb4bec7eee1cc1a3973628659717599d409deb95265e9d461211d9014d947  ./install.sh
+2d1b6fb623411e131d2ea89d18f661d79222456d3f96c04daffc888bfef8a688  ./install.sh
 6a99ce42600da50bc574308794df9fda8605df27a31cdfbc90038175ae4719c8  ./core/dispatcher.sh
 0d8634584efed3dc691605a0347c3803cc2eb066d2ea8c7a43ffdf94b965fca3  ./hooks/post-commit-sync-activity.setup.sh
 3595f510de4bd1fc3f37040f1110999ee37e1238f8e6a1f17f510a15f4abf28f  ./hooks/post-commit-sync-activity.sh
