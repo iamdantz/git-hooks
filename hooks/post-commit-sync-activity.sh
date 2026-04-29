@@ -21,6 +21,6 @@ pushd "$SHADOW_REPO_PATH" > /dev/null
     echo "$TIMESTAMP | External Activity | Ref: $COMMIT_HASH" >> "$ACTIVITY_FILE"
     
     git add "$ACTIVITY_FILE"
-    git commit --no-verify -m "Sync activity: $TIMESTAMP"
+    git commit --no-verify -m "chore(activity): $TIMESTAMP"
     git push origin main
 popd > /dev/null
