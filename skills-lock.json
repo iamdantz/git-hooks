@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "bash-defensive-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/shell-scripting/skills/bash-defensive-patterns/SKILL.md",
+      "computedHash": "33de6a9e8260a7a5f772c5bf1e389b5207318a17a3a0a13160066c5e76a059d3"
+    },
+    "bash-linux": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/bash-linux/SKILL.md",
+      "computedHash": "e078b9da423a49126b6684dc210ae77e4d851b521de390a21b7c8b9f6c926851"
+    },
+    "bash-pro": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/bash-pro/SKILL.md",
+      "computedHash": "a16136d229d501a974f81abc10449053e882c303190ccedb667e791d0b5ddec5"
+    },
+    "bash-scripting": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/bash-scripting/SKILL.md",
+      "computedHash": "1c2080bc5de9996ee17a8f550aa8744ed9207873d4243073e99961b2c1f1685e"
+    },
+    "bats-testing-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/shell-scripting/skills/bats-testing-patterns/SKILL.md",
+      "computedHash": "e6be7fe904eb3a20308f21c76cbdf96a4e5ac3c6ece8dc54c18023e97d1652d1"
+    },
+    "documentation-templates": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/documentation-templates/SKILL.md",
+      "computedHash": "d587f306cdf65365e78ce9e4a6170c7c80a58ee5266d994b5c7f3558235ff1d5"
+    },
+    "error-handling-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/developer-essentials/skills/error-handling-patterns/SKILL.md",
+      "computedHash": "824c53fa080765f05862d3ec0ef829aaff9f8d544f9de0039b8fcafa6bc1a899"
+    },
+    "shellcheck-configuration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/shell-scripting/skills/shellcheck-configuration/SKILL.md",
+      "computedHash": "9da2f34ada78a603bb2f611602af6f351d3dfe84e9bb73d6f800acab76ecd5aa"
+    }
+  }
+}
